@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:wght@500&display=swap');
 
 
+:root 
+{
+  --pry: #673ab7;
 
+}
 
 body 
 {
@@ -36,7 +40,7 @@ a
 .background div 
 {
   position:absolute ;
-  background: linear-gradient(to bottom ,rgb(255 83 249),#462d70);
+  background: linear-gradient(to bottom ,rgb(124 82 141),#6740a8);
   height: 670px;
   width: 533px;
   z-index: -1;
@@ -88,7 +92,7 @@ a
 /* booking header */
 .content .booking-app .booking-header 
 {
-  background: linear-gradient(to bottom ,rgb(255 83 249),#462d70);
+  background: linear-gradient(to left ,rgb(255 83 249),#462d70);
 height: 65px;
 width: 100%;
 border-top-left-radius:1rem ;
